@@ -1,0 +1,598 @@
+repo_name: Egaros/odin
+report_id: 1559a3ce35fb46f7b967da4390e59fc3
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:01:24+00:00'
+requested_by: LiquidatorCoder
+provider: github
+branch: main
+detected_tools_count: 44
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Egaros/odin
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/Egaros/odin
+  detection_source: Repo Metadata
+- name: Dart
+  description: A new web programming language with libraries, a virtual machine, and
+    tools
+  website_url: https://www.dartlang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1646/Twitter-02.png
+  detection_source_url: https://github.com/Egaros/odin
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Egaros/odin
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/Egaros/odin
+  detection_source: Repo Metadata
+- name: Objective-C
+  description: The primary programming language you use when writing software for
+    OS X and iOS
+  website_url: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source_url: https://github.com/Egaros/odin
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/Egaros/odin
+  detection_source: Repo Metadata
+- name: Swift
+  description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/Egaros/odin
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  version: '31.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/android/app/build.gradle
+  detection_source: android/app/build.gradle
+  last_updated_by: Abhay Maurya
+  last_updated_on: 2021-11-13 08:14:41.000000000 Z
+- name: Flutter
+  description: Cross-platform mobile framework from Google
+  website_url: https://flutter.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Mobile Development
+  image_url: https://img.stackshare.io/service/7180/flutter-mark-square-100.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-23 11:58:28.000000000 Z
+- name: Firebase
+  description: The Realtime App Platform
+  website_url: https://firebase.google.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/116/cZLxNFZS.jpg
+  detection_source_url: https://github.com/Egaros/odin/blob/main/functions/functions/package.json
+  detection_source: functions/functions/package.json
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-15 12:55:06.000000000 Z
+- name: CMake
+  description: 'An open-source system that manages the build process '
+  website_url: http://www.cmake.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/Egaros/odin
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/Egaros/odin/blob/main/functions/functions/package.json
+  detection_source: functions/functions/package.json
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-15 12:55:06.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Egaros/odin
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/android/app/build.gradle
+  detection_source: android/app/build.gradle
+  last_updated_by: Abhay Maurya
+  last_updated_on: 2021-11-13 08:14:41.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: Abhay Maurya
+  last_updated_on: 2021-11-13 08:14:41.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: Abhay Maurya
+  last_updated_on: 2021-11-13 08:14:41.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  version: '12.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/Egaros/odin/blob/main/android/app/build.gradle
+  detection_source: android/app/build.gradle
+  last_updated_by: Abhay Maurya
+  last_updated_on: 2021-11-13 08:14:41.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/ios/Podfile.lock
+  detection_source: ios/Podfile.lock
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-25 12:41:33.000000000 Z
+- name: archive
+  description: Provides encoders and decoders for various archive and compression
+    formats such as zip
+  package_url: https://pub.dartlang.org/archive
+  version: 3.1.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: codenameakshay
+  last_updated_on: 2021-11-14 14:24:57.000000000 Z
+  vulnerabilities:
+  - name: Path traversal in Archive
+    cve_id: CVE-2023-39139
+    cve_url: https://github.com/advisories/GHSA-9v85-q87q-g4vg
+    detected_date: Nov 9
+    severity: high
+    first_patched: 3.3.8
+  - name: Filename spoofing in archive
+    cve_id: CVE-2023-39137
+    cve_url: https://github.com/advisories/GHSA-r285-q736-9v95
+    detected_date: Nov 9
+    severity: high
+    first_patched: 3.3.8
+- name: build_runner
+  description: A build system for Dart code generation and modular compilation
+  package_url: https://pub.dartlang.org/build_runner
+  version: 2.1.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: codenameakshay
+  last_updated_on: 2021-11-14 17:16:14.000000000 Z
+- name: cupertino_icons
+  description: Default icons asset for Cupertino widgets based on Apple styled icons
+  package_url: https://pub.dartlang.org/cupertino_icons
+  version: 1.0.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-23 11:55:03.000000000 Z
+- name: dio
+  description: |-
+    A powerful HTTP networking package,
+    supports Interceptors,
+    Aborting and canceling a request,
+    Custom adapters
+  package_url: https://pub.dartlang.org/dio
+  version: 4.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Abhay Maurya
+  last_updated_on: 2021-11-13 08:14:41.000000000 Z
+  vulnerabilities:
+  - name: dio vulnerable to CRLF injection with HTTP method string
+    cve_id: CVE-2021-31402
+    cve_url: https://github.com/advisories/GHSA-9324-jv53-9cc8
+    detected_date: Nov 9
+    severity: high
+    first_patched: 5.0.0
+  - name: 'Duplicate Advisory: Improper Neutralization of CRLF Sequences in dio'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-jwpw-q68h-r678
+    detected_date: Nov 9
+    severity: high
+    first_patched: 5.0.0
+- name: firebase_dynamic_links
+  description: Flutter plugin for Google Dynamic Links for Firebase
+  package_url: https://pub.dartlang.org/firebase_dynamic_links
+  version: 3.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-25 07:46:18.000000000 Z
+- name: flutter
+  description: Visit flutter.io to get started
+  package_url: https://pub.dartlang.org/flutter
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-23 11:58:28.000000000 Z
+- name: flutter_dotenv
+  description: Easily configure any flutter application with global variables using
+    a `.env` file
+  package_url: https://pub.dartlang.org/flutter_dotenv
+  version: 5.0.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-23 11:58:28.000000000 Z
+- name: flutter_launcher_icons
+  description: A package which simplifies the task of updating your Flutter app's
+    launcher icon
+  package_url: https://pub.dartlang.org/flutter_launcher_icons
+  version: 0.9.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-23 11:58:28.000000000 Z
+- name: flutter_native_splash
+  description: Customize Flutter's default white native splash screen with background
+    color and splash image
+  package_url: https://pub.dartlang.org/flutter_native_splash
+  version: 1.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-23 11:58:28.000000000 Z
+- name: get_it
+  description: Simple direct Service Locator that allows to decouple the interface
+    from a concrete implementation and to access the concrete implementation from
+    everywhere in your App"
+  package_url: https://pub.dartlang.org/get_it
+  version: 7.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Abhay Maurya
+  last_updated_on: 2021-11-13 13:28:15.000000000 Z
+- name: google_fonts
+  description: A Flutter package to use fonts from fonts.google.com
+  package_url: https://pub.dartlang.org/google_fonts
+  version: 2.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-15 07:16:14.000000000 Z
+- name: http
+  description: A composable
+  package_url: https://pub.dartlang.org/http
+  version: 0.13.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: codenameakshay
+  last_updated_on: 2021-11-14 17:16:14.000000000 Z
+- name: intl
+  description: Contains code to deal with internationalized/localized messages
+  package_url: https://pub.dartlang.org/intl
+  version: 0.17.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: codenameakshay
+  last_updated_on: 2021-11-14 14:24:57.000000000 Z
+- name: json_annotation
+  description: Classes and helper functions that support JSON code generation via
+    the `json_serializable` package
+  package_url: https://pub.dartlang.org/json_annotation
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-15 09:36:23.000000000 Z
+- name: json_serializable
+  description: Automatically generate code for converting to and from JSON by annotating
+    Dart classes
+  package_url: https://pub.dartlang.org/json_serializable
+  version: 6.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: codenameakshay
+  last_updated_on: 2021-11-14 17:16:14.000000000 Z
+- name: logger
+  description: Small
+  package_url: https://pub.dartlang.org/logger
+  version: 1.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Abhay Maurya
+  last_updated_on: 2021-11-13 13:28:15.000000000 Z
+- name: open_file
+  description: A plug-in that can call native APP to open files with string result
+    in flutter
+  package_url: https://pub.dartlang.org/open_file
+  version: 3.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-26 14:57:10.000000000 Z
+- name: path
+  description: A string-based path manipulation library
+  package_url: https://pub.dartlang.org/path
+  version: 1.8.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-26 14:57:10.000000000 Z
+- name: path_provider
+  description: Flutter plugin for getting commonly used locations on host platform
+    file systems
+  package_url: https://pub.dartlang.org/path_provider
+  version: 2.0.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-26 14:57:10.000000000 Z
+- name: permission_handler
+  description: Permission plugin for Flutter
+  package_url: https://pub.dartlang.org/permission_handler
+  version: 8.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-26 15:36:38.000000000 Z
+- name: provider
+  description: A wrapper around InheritedWidget to make them easier to use and more
+    reusable
+  package_url: https://pub.dartlang.org/provider
+  version: 6.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-26 14:57:10.000000000 Z
+- name: qr_flutter
+  description: QR.Flutter is a Flutter library for simple and fast QR code rendering
+    via a Widget or custom painter
+  package_url: https://pub.dartlang.org/qr_flutter
+  version: 4.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-23 11:58:28.000000000 Z
+- name: eslint-config-google
+  description: ESLint shareable config for the Google style
+  package_url: https://www.npmjs.com/eslint-config-google
+  version: 0.14.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16249/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/functions/functions/package-lock.json
+  detection_source: functions/functions/package.json
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-15 12:55:06.000000000 Z
+- name: firebase-admin
+  description: Firebase admin SDK for Node.js
+  package_url: https://www.npmjs.com/firebase-admin
+  version: 9.12.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17151/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/functions/functions/package-lock.json
+  detection_source: functions/functions/package.json
+  last_updated_by: LiquidatorCoder
+  last_updated_on: 2021-11-15 12:55:06.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk7
+  description: Kotlin Standard Library JDK 7 extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Egaros/odin/blob/main/android/app/build.gradle
+  detection_source: android/app/build.gradle
+  last_updated_by: Abhay Maurya
+  last_updated_on: 2021-11-13 08:14:41.000000000 Z
